@@ -13,5 +13,6 @@ jobs:
       app_name: "daedalos"
       release_type: "github_commit"
       release_url: "https://api.github.com/repos/DustinBrett/daedalOS/commits/main"
+      branch: "master"
     secrets:
       repo_release_token: ${{ secrets.repo_release_token }}
